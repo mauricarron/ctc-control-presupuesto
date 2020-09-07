@@ -1,6 +1,16 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 
 const Pregunta = () => {
+  const [cantidad, guardarCantidad] = useState(0);
+
+  const definirPresupuesto = (e) => {
+    guardarCantidad(parseInt(e.target.value));
+  };
+
+  const agregarPresupusto = (e) => {
+    e.preventDefault();
+  };
+
   return (
     <Fragment>
       <h2>Ingrese su Presupuesto</h2>
@@ -9,6 +19,7 @@ const Pregunta = () => {
           type="number"
           placeholder="Ingrese su presupuesto"
           className="u-full-width"
+          onChange={definirPresupuesto}
         />
         <input
           type="submit"
