@@ -6,9 +6,9 @@ Proyecto de aprendizaje realizado en el curso **Desarrollo FrontEnd con React**,
 
 ## 🔍 Objetivos
 
-Que se aprendió con el proyecto?
-
+- Profundiza sobre elementos fundamentales de React
 - Helpers
+- PropTypes
 
 ## ✅ Tecnologías
 
