@@ -9,6 +9,7 @@ Proyecto de aprendizaje realizado en el curso **Desarrollo FrontEnd con React**,
 - Profundiza sobre elementos fundamentales de React
 - Helpers
 - PropTypes
+- Deploy (con Netlify);
 
 ## ✅ Tecnologías
 
