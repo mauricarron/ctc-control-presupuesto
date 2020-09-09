@@ -19,7 +19,7 @@ function App() {
       guardarRestante(presupuestoRestante);
       guardarCrearGasto(false);
     }
-  }, [gasto]);
+  }, [gasto, crearGasto, listaGastos, restante]);
 
   return (
     <div className="container">

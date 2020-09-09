@@ -8,6 +8,8 @@ Proyecto de aprendizaje realizado en el curso **Desarrollo FrontEnd con React**,
 
 Que se aprendió con el proyecto?
 
+- Helpers
+
 ## ✅ Tecnologías
 
 - Javascript
